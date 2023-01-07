@@ -3,7 +3,7 @@ using MySqlConnector;
 
 namespace Ongdat.Diagnostics.HealthChecks.MySql;
 
-public class MySqlHealthCheck : IHealthCheck
+internal class MySqlHealthCheck : IHealthCheck
 {
   private readonly string connectionString;
 
