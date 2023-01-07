@@ -3,13 +3,19 @@ using Ongdat.Diagnostics.HealthChecks.MySql;
 
 namespace Microsoft.Extensions.DependencyInjection;
 
-public static class HealthChecksBuilderExtension
+public static class HealthChecksBuilderExtensions
 {
   public static IHealthChecksBuilder AddMySqlCheck(
     this IHealthChecksBuilder builder,
-    string connectionString,
     string name,
-    HealthStatus? failureStatus = default,
+    string connectionString,
+    params string[] tags) => builder.AddMySqlCheck(name, connectionString, null, tags);
+
+  public static IHealthChecksBuilder AddMySqlCheck(
+    this IHealthChecksBuilder builder,
+    string name,
+    string connectionString,
+    HealthStatus? failureStatus,
     params string[] tags)
   {
     if (tags == null || tags.Length == 0)
