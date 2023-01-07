@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ongdat.Diagnostics.HealthChecks.MySql", "src\Ongdat.Diagnostics.HealthChecks.MySql.csproj", "{DA835E3B-A957-4BCB-B423-9BE67C29E4E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{E92023ED-4C57-4ED2-AA40-418DA9274841}"
+	ProjectSection(SolutionItems) = preProject
+		Version.props = Version.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA835E3B-A957-4BCB-B423-9BE67C29E4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA835E3B-A957-4BCB-B423-9BE67C29E4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA835E3B-A957-4BCB-B423-9BE67C29E4E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA835E3B-A957-4BCB-B423-9BE67C29E4E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30DBD57B-A6E1-44B4-B856-04604E9EC6B2}
+	EndGlobalSection
+EndGlobal
