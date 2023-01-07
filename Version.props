@@ -1,0 +1,21 @@
+﻿<Project>
+  <PropertyGroup>
+    <Company>Ong Dat Ltd.</Company>
+    <Authors>$(Company)</Authors>
+    <Copyright>© 2023 $(Company)</Copyright>
+    <!--
+      Stage               Semver (semantic versioning)    Numeric status    Numeric 90+
+      Alpha               1.2.0-a.1                       1.2.0.1           1.1.90
+      Beta                1.2.0-b.2                       1.2.1.2           1.1.93
+      Release candidate   1.2.0-rc.3                      1.2.2.3           1.1.97
+      Release             1.2.0                           1.2.3.0           1.2.0
+      Post-release fixes  1.2.5                           1.2.3.5           1.2.5
+    -->
+    <Version>1.0.0</Version>
+    <Product>MySql health check</Product>
+    <!-- The assembly version is what the CLR uses at run time to select which version of an assembly to load. -->
+    <AssemblyVersion>1.0.3.0</AssemblyVersion>
+    <!-- The assembly file version is used to display a file version in Windows and has no effect on run-time behavior. -->
+    <FileVersion>1.0.3.0</FileVersion>
+  </PropertyGroup>
+</Project>
